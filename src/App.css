@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.productlist{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.singleproduct{
+  width: 250px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.singleproduct .title{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.singleproduct .lower{
+  margin: 20px;
+
+}
+.singleproduct .lower span{
+  margin: 0 10px;
+}
+.singleproduct button{
+  padding: 10px;
+  aspect-ratio: 1/1;
+  font-size: 20px;
+}
+.singleproduct img{
+  width: 100%;
+  
+}
