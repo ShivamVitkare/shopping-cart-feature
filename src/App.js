@@ -13,8 +13,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      
-      \
       {/* <ProductList /> */}
       <Routes>
         <Route path="/" element={<ProductList/>} />

@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app{
+  max-width: 1150px;
+}
 .productlist{
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -28,11 +32,113 @@
   margin: 0 10px;
 }
 .singleproduct button{
-  padding: 10px;
+  width: 40px;
+  outline: none;
+  border: none;
+  font: 20px;
+  background-color: rgb(144, 213, 213);
+  font-weight: bold;
+  border-radius: 50%;
+
+
   aspect-ratio: 1/1;
   font-size: 20px;
 }
 .singleproduct img{
   width: 100%;
   
+}
+.navbar{
+  width: 100%;
+  position: fixed;
+  top:0px;
+  background-color: rgb(156, 156, 237);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.navbar h1{
+  font-weight: bold;
+  color: rgb(255, 238, 0);
+
+}
+.navbar .link{
+  background-color: chartreuse;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.back{
+  background-color: aliceblue;
+  display: inline-block;
+  margin: 20px;
+  padding:10px 20px;
+font-size:30px;
+font-weight: bold;
+  border-radius: 15px;
+}
+.cart-list{
+  margin-top: 50px;
+}
+.cart{
+  padding-right:30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  justify-content: space-between;
+  margin: 20px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  height: 70px;
+  background-color: rgba(0, 229, 229, 0.282);
+
+}
+.cart img{
+  border-radius: 10px;
+  height: 60px;
+  aspect-ratio: 1/1;
+}
+.cart button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold;
+  font-size: 20px;
+  width: 30px;
+  justify-self: flex-end;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+
+  background-color: rgb(120, 230, 230);
+  border: none;
+  font-weight: bold;
+}
+.cart p{
+  font-weight: bold;
+}
+.cart-lower{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.cart-lower button{
+  background-color: chartreuse;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 20px;
+
+}
+.productlist{
+  margin-top: 90px;
 }

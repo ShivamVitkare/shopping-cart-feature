@@ -3,14 +3,16 @@ import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
 
+
 const Navbar = () => {
     const item = useSelector((state)=> state.cartreducer.value)
     let quanlity = 0;
     item.forEach((itam) => quanlity += itam.quantity)
   return (
-    <div>
+    <div className='navbar'>
+   
         <h1>ShopCart</h1>
-        <Link to={"/cart"}><p>{`Cart ${quanlity}`}</p></Link>
+        <Link className='link' to={"/cart"}><p><i class="fa-solid fa-cart-shopping"></i> {`${quanlity}`}</p></Link>
        
         
     </div>
